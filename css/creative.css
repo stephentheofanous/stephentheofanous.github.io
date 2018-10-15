@@ -178,11 +178,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-<<<<<<< HEAD
-  background-image: url("h4n.jpg");
-=======
-  background-image: url("../img/h4n.JPG");
->>>>>>> parent of bb9d544... v1_jpg
+  background-image: url("../img/h4n.jpg");
   background-position: center center;
   background-size: cover;
 }
