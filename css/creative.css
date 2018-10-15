@@ -178,11 +178,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-<<<<<<< HEAD
-  background-image: url("https://www.bluecross.org.uk/sites/default/files/assets/images/119702lpr.jpg");
-=======
-  background-image: url("../img/h4n.JPG");
->>>>>>> parent of c007dc6... should_work
+  background-image: url("../img/h4n.jpg");
   background-position: center center;
   background-size: cover;
 }
