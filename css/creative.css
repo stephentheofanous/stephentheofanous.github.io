@@ -328,4 +328,17 @@ header.masthead p {
   margin:0 auto;
 }*/
 
+#credit_table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
 
+#credit_table td {
+  border: 1px solid #ddd;
+  padding: 4px;
+}
+
+#credit_table tr:nth-child(even){background-color: #f2f2f2;}
