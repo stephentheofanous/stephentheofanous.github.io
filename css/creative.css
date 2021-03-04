@@ -218,6 +218,14 @@ header.masthead p {
   max-width: 400px;
 }
 
+.company-logo {
+  position: relative;
+  display: block;
+  /*max-width: 650px;*/
+  max-width: 90px;
+  margin: 0 auto;
+}
+
 .portfolio-box {
   position: relative;
   display: block;
@@ -325,10 +333,13 @@ header.masthead p {
 
 #credit_table {
   border-collapse: collapse;
-  width: 100%;
-  font-size: 14px;
-  font-weight: 400;
+  text-align: center;
+  width: 80%;
+  font-size: 13px;
+  font-weight: 500;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #credit_table td, #credit_table th {
