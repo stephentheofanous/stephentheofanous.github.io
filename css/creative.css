@@ -41,6 +41,12 @@ h6 {
   background-color: #F05F40 !important;
 }
 
+.bg-primary2 {
+  background-color: #F05F40 !important;
+  min-height: 28em;
+}
+
+
 .bg-dark {
   background-color: #212529 !important;
 }
@@ -230,7 +236,7 @@ header.masthead p {
   position: relative;
   display: block;
   /*max-width: 650px;*/
-  max-width: 200px;
+  max-width: 650px;
   margin: 0 auto;
 }
 
@@ -296,7 +302,7 @@ header.masthead p {
 
 .btn {
   font-weight: 700;
-  text-transform: uppercase;
+ /* text-transform: uppercase;*/
   border: none;
   border-radius: 300px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -322,7 +328,7 @@ header.masthead p {
 }
 
 /*ST video popups*/
-#headerPopup1,#headerPopup2,#headerPopup3,#headerPopup4,#headerPopup5, #headerPopup6, #headerPopup7, #headerPopup8, #headerPopup9, #headerPopup10, #headerPopup11{
+#headerPopup0, #headerPopup1,#headerPopup2,#headerPopup3,#headerPopup4,#headerPopup5, #headerPopup6, #headerPopup7, #headerPopup8, #headerPopup9, #headerPopup10, #headerPopup11{
   width:75%;
   margin:0 auto;
 }
@@ -330,24 +336,6 @@ header.masthead p {
   width:100%;
   margin:0 auto;
 }*/
-
-#credit_table {
-  border-collapse: collapse;
-  text-align: center;
-  width: 80%;
-  font-size: 13px;
-  font-weight: 500;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#credit_table td, #credit_table th {
-  border: 1px solid #ddd;
-  padding: 4px;
-}
-
-#credit_table tr:nth-child(even){background-color: #f2f2f2;}
 
 #customers th {
   padding-top: 12px;

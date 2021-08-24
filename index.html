@@ -20,6 +20,28 @@
     <link href="css/creative.css" rel="stylesheet">
     <link rel="shortcut icon" href="img\ico.ico" type="image/x-icon">
   </head>
+
+<!-- contactModal -->
+<div class="modal fade" id="contactModalCenter" tabindex="-1" role="dialog" aria-labelledby="contactModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content text-center">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <br>
+        <p class="w-100"><b>Let's discuss your project!</b></p>
+        <br>
+        <form action="mailto:stephen.theofanous@gmail.com">
+       Send me a message at stephen.theofanous@gmail.com <br><hr>
+       <input type="submit" value="Open in your mail app" class="btn btn-primary">
+    </form>
+      <br>
+      </div>
+    </div>
+  </div>
+</div>
+
   <body id="page-top">
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
@@ -49,134 +71,110 @@
 
     <header class="masthead text-center text-white d-flex">
       <div class="container my-auto">
-        <div class="row">
+          <br><br>
           <div class="col-lg-10 mx-auto">
-            <h1 class="text-uppercase text-faded">
-              <strong>Stephen Theofanous</strong>
+            <h1 class="text-uppercase text-white">
+              <strong>MUSIC FOR YOUR FILM</strong>
             </h1>
-            <hr>
+            <!-- <hr> -->
           </div>
           <div class="col-lg-8 mx-auto">
-            <p class="mb-5">Music Composition<br>Sound Design</p>
-            <a class="btn btn-primary btn-l js-scroll-trigger" href="#about">Find Out More</a>
+            <p class="mb-5 text-dark"><b>Enrich your project with engaging music</b></p>
+            <!-- <hr> -->
+            <a id="" href="#headerPopup0" class="btn btn-xl btn-primary headerVideoLink"> 
+                  <div id="headerPopup0" class="mfp-hide embed-responsive embed-responsive-21by9">
+                    <iframe src='https://player.vimeo.com/video/591473275' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+                  </div>
+                <!-- 🎧 -->Showreel</a>
+            <br><br>
+            <!-- <a class="btn btn-light text-dark btn-xl" id="contactBtn">Get In Touch</a> -->
+            <button type="button" class="btn btn-light text-dark btn-xl" data-toggle="modal" data-target="#contactModalCenter">Get in Touch</button>
           </div>
         </div>
-      </div>
+
     </header>
 
-    <section class="bg-primary" id="about">
+<!-- <section class="bg-primary" id="testimonials">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading text-white">Composition, Sound Design and <br> Audio Services</h2>
-            <hr class="light my-4">
-            <p class="text-faded mb-4">ST || Composition is the work of an active composer and sound artist based in the UK.
-            <p class="text-faded mb-4">Combining years of classical training with electroacoustic methods of audio production his work is varied, vibrant and atmospheric.</p>
-            <!-- <p class="text-faded mb-4">I have a Masters degree in Composition from the The University of Sheffield and graduated in 2016 with the highest honours.</p> -->
-<!--             <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">portfolio</a> -->
+            <h2 class="section-heading text-white">Testimonials </h2>
+            <p class="text-light mb-4"><i>“Working with Stephen was a pleasure, his understanding of the brief and communication made the whole process streamline plus the high quality production really complemented our work.”</i>
+            <p class="text-faded mb-4">Oliver Cooper of Cricket Productions</p>
+            <hr class = "light">
+            <p class="text-light mb-4"><i>“We worked with Stephen on our feature film Neville Rumble putting full faith in his ability to produce a score that would help us tell the story we wanted. He more than repaid our faith and produced some fantastic music which really brought the film to life. A real professional approach and someone I would love to work with again.”</i>
+            <p class="text-faded mb-4">Richard Miller of Body In The Box Productions</p>
+            <hr class = "light">
+            <p class="text-light mb-4"><i>“Stephen Theofanous’ original score sounds like compassion, providing sympathetic harmony without telling the audience what to feel."</i>
+            <p class="text-faded mb-4">James Treakle of Indie Frontiers</p>
+            <hr class = "light">
           </div>
+        </div>
+      </div>
+    </section> -->
+
+<section class="bg-primary2" id="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+          <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <p class="text-light mb-4"><i>“Working with Stephen was a pleasure, his understanding of the brief and communication made the whole process streamline plus the high quality production really complemented our work.”</i>
+            <p class="text-faded">Oliver Cooper of Cricket Productions</p>
+            <hr class = "light">
+            </div>
+            <div class="carousel-item">
+              <p class="text-light mb-4"><i>“We worked with Stephen on our feature film Neville Rumble putting full faith in his ability to produce a score that would help us tell the story we wanted. He more than repaid our faith and produced some fantastic music which really brought the film to life. A real professional approach and someone I would love to work with again.”</i>
+            <p class="text-faded mb-4">Richard Miller of Body In The Box Productions</p>
+            <hr class = "light">
+            </div>
+            <div class="carousel-item">
+              <p class="text-light mb-4"><i>“Stephen Theofanous’ original score sounds like compassion, providing sympathetic harmony without telling the audience what to feel."</i>
+            <p class="text-faded mb-4">James Treakle of Indie Frontiers</p>
+            <hr class = "light">
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        </div>
         </div>
       </div>
     </section>
 
-    <section id="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Services</h2>
-            <hr class="my-4">
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-3 col-md-6 text-left">
-            <div class="service-box mt-5 mx-auto">
-              <h3 class="mb-3">Composition</h3>
-              <li class="text-muted mb-0">Original soundtracks
-              <li class="text-muted mb-0">Film scores
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-left">
-            <div class="service-box mt-5 mx-auto">
-              <h3 class="mb-3">Sound Design</h3>
-              <li class="text-muted mb-0">Modern sound design
-              <li class="text-muted mb-0">Performed Foley
-              <li class="text-muted mb-0">Crafted ambiences
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-left">
-            <div class="service-box mt-5 mx-auto">
-              <h3 class="mb-3">Sound Edit</h3>
-              <li class="text-muted mb-0">Dialogue edit and clean-up
-              <li class="text-muted mb-0">Audio restoration
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-left">
-            <div class="service-box mt-5 mx-auto">
-              <h3 class="mb-3">Sound Mix</h3>
-              <li class="text-muted mb-0">Full multitrack stereo mixes
-              <li class="text-muted mb-0">
-              Mixes delivered in a number of formats and loudness specs
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="p-5 bg-dark" id="portfolio">
-      <div class="container">
-         <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/378601944?title=1&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:95%;height:90%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-         <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/515789453?title=1&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:95%;height:90%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-      </div>
-    </section>
-
-<section id="credits">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading">Credits</h2>
-            <hr class="my-4">
-          </div>
-        </div>
-        <div class="container">
-             <!-- <img src="img\credits.jpg" alt="" style="width:100%;height:100%;"> -->
-         <table id="credit_table">
-          <tr>
-				    <th class="text-white">______🎧_____</th>
-            <th>PROJECT</th>
-				    <th>ROLE</th>
-				    <th>FORMAT</th>
-				    <th></th>
-				  </tr>
-          <tr>
-            <td>
+<section class="p-5 bg-dark" id="portfolio">
+ <div class="container-fluid p-0">
+        <!-- <div class="row no-gutters popup-gallery"> -->
+        <div class="row no-gutters">
+            <!-- REPEAT -->
+<!--             <div class="col-lg-4 col-sm-6">   
               <a href="https://www.imdb.com/title/tt11563364/" target="_blank" class="portfolio-box"> 
                 <img class="img-fluid" src="img\repeat.jpg" alt="">
                 <div class="portfolio-box-caption">
                 </div>
-              </a></td>
-            <td>REPEAT (in post-production)</td>
-            <td>Sound Edit, Design and Mix</td>
-            <td>Feature film</td>
-            <td><img class="company-logo" src="https://static.wixstatic.com/media/6296a5_5cdd8c74dd484c2ea6315beb27619451~mv2.png/v1/fill/w_145,h_80,al_c,q_85,usm_0.66_1.00_0.01/Body%20In%20The%20Box%20Productions.webp"/></td>
-          </tr>
-			  	<tr>
-				    <td><a href="#headerPopup2" class="headerVideoLink portfolio-box"> 
+              </a>
+            </div> -->
+            <!-- BABY TRUCKS -->
+            <div class="col-lg-4 col-sm-6">   
+                <a href="#headerPopup2" class="headerVideoLink portfolio-box"> 
                   <div id="headerPopup2" class="mfp-hide embed-responsive embed-responsive-21by9">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/oyBmzaOmIzY" frameborder='0' allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  </div> 
+                </div> 
                   <img class="img-fluid" src="img\baby_trucks.png" alt="">
                   <div class="portfolio-box-caption">
                   </div>
-                </a></td>
-				    <td>BABY TRUCKS - CAR CITY UNIVERSE</td>
-            <td>Composer</td>
-				    <td>Animated Series</td>
-				    <td><img class="company-logo" src="https://www.amuseanimation.com/wp-content/uploads/2019/09/01_logo_amuse_without_animation_textv2.gif"/></td>
-			  	</tr>
-				<tr>
-				    <td><a href="#headerPopup6" class="headerVideoLink portfolio-box"> 
+                </a>
+            </div> 
+                      <!-- JPX -->
+            <div class="col-lg-4 col-sm-6">   
+              <a href="#headerPopup6" class="headerVideoLink portfolio-box"> 
                 <div id="headerPopup6" class="mfp-hide embed-responsive embed-responsive-21by9">
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/--_hKTYu-gU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
                   </iframe>
@@ -184,88 +182,53 @@
                 <img class="img-fluid" src="img\jpx2.jpg" alt="">
                 <div class="portfolio-box-caption">
                 </div>
-              </a></td>
-				    <td>JPX - GONE NATIVE (in production)</td>
-            <td>Composer</td>
-				    <td>Documentary</td>
-            <td><img class="company-logo" src="https://static.wixstatic.com/media/04e51f_378139d782f8462f9b0ba7e917a9f392~mv2.png/v1/fill/w_340,h_238,al_c,q_85,usm_0.66_1.00_0.01/Grey%20Matobo%20no%20URL%20alpha%20PNG.webp"/></td>
-				</tr>
-				<tr>
-				    <td><a href="#headerPopup4" class="headerVideoLink portfolio-box"> 
+              </a>
+            </div>
+            <!-- CAN'T HIDE IT -->
+            <div class="col-lg-4 col-sm-6">   
+              <a href="#headerPopup4" class="headerVideoLink portfolio-box"> 
                 <div id="headerPopup4" class="mfp-hide embed-responsive embed-responsive-21by9">                  
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/4wLcJx_sxVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div> 
-                <img class="img-fluid" src="img\chi.png" alt="">
+                <img class="img-fluid" src="img\chi.jpg" alt="">
                 <div class="portfolio-box-caption">
                 </div>
-              </a></td>
-				    <td>CAN'T HIDE IT</td>
-            <td>Composer</td>
-				    <td>Short film</td>
-				    <td><img class="company-logo" src="https://static.wixstatic.com/media/6296a5_5cdd8c74dd484c2ea6315beb27619451~mv2.png/v1/fill/w_145,h_80,al_c,q_85,usm_0.66_1.00_0.01/Body%20In%20The%20Box%20Productions.webp"/></td>
-			  	</tr>
-			  	<tr>
-				    <td><a href="#headerPopup5" class="headerVideoLink portfolio-box"> 
-                  <div id="headerPopup5" class="mfp-hide embed-responsive embed-responsive-21by9">
-                    <iframe src="https://player.vimeo.com/video/346619486" width="640" height="272" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>   
-                  </div>
-                  <img class="img-fluid" src="img\the_other_side.png" alt="">
-                  <div class="portfolio-box-caption">
-                  </div>
-                </a></td>
-				    <td>THE OTHER SIDE</td>
-            <td>Composer</td>
-				    <td>Short film</td>
-				    <td><img class="company-logo" src="https://static.wixstatic.com/media/6296a5_5cdd8c74dd484c2ea6315beb27619451~mv2.png/v1/fill/w_145,h_80,al_c,q_85,usm_0.66_1.00_0.01/Body%20In%20The%20Box%20Productions.webp"/></td>
-				</tr>
-	   			<tr>
-				    <td><a class="portfolio-box" href="https://itch.io/jam/blackthornprod-game-jam-1/rate/318871" target="_blank">  
+              </a>
+            </div>
+          <!-- GAME -->
+<!--             <div class="col-lg-4 col-sm-6">
+              <a class="portfolio-box" href="https://itch.io/jam/blackthornprod-game-jam-1/rate/318871" target="_blank">  
                 <img class="img-fluid" src="img\game.jpg" alt="">
                 <div class="portfolio-box-caption">
                 </div>
-              </a></td>
-				    <td>REALISTIC GAME DEV SIMULATOR</td>
-            <td>Composer and Sound Designer</td>
-				    <td>Game</td>
-				    <td><img class="company-logo" src="https://pbs.twimg.com/profile_images/633390049955053568/MTd8cgWt_400x400.png"/></td>
-		    	</tr>
-				<tr>
-				    <td><a href="#headerPopup10" class="headerVideoLink portfolio-box"> 
+              </a>
+            </div> -->
+            <!-- LIGHT AND DARK -->
+<!--             <div class="col-lg-4 col-sm-6"> 
+              <a href="#headerPopup10" class="headerVideoLink portfolio-box"> 
                 <div id="headerPopup10" class="mfp-hide embed-responsive embed-responsive-21by9">  
                   <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/620079150&color=%23181818&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                 </div>
                 <img class="img-fluid" src="img\landdark.png" alt="">
                 <div class="portfolio-box-caption">
                 </div>
-              </a></td>
-				    <td>LIGHT & DARK</td>
-            <td>Composer and Sound Designer</td>
-				    <td>Game</td>
-				    <td>Acorn Games</td>
-			  	</tr>
-				<!-- <tr>
-				    <td>The Exchange</td>
-				    <td>Composer</td>
-				    <td>Short film</td>
-				    <td>Body In The Box Productions</td>
-			  	</tr> -->
-			  	<tr>
-				    <td><a href="#headerPopup9" class="headerVideoLink portfolio-box">
-              <div id="headerPopup9" class="mfp-hide embed-responsive embed-responsive-21by9">
+              </a>
+            </div> -->
+          <!-- ABC -->
+            <div class="col-lg-4 col-sm-6"> 
+              <a href="#headerPopup9" class="headerVideoLink portfolio-box">                 
+                <div id="headerPopup9" class="mfp-hide embed-responsive embed-responsive-21by9">
                     <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/301235785&color=%23ff5500&auto_play=false&hide_related=false&show_comments=false&show_user=false&show_reposts=false&show_teaser=false&visual=true">
                   </iframe>
                   </div>
                 <img class="img-fluid" src="img\abc.jpg" alt="">
                 <div class="portfolio-box-caption">
                 </div>
-              </a></td>
-				    <td>APPROVED BY CINEPHILES</td>
-            <td>Composer</td>
-				    <td>Podcast</td>
-				    <td><img class="company-logo" src="https://media-exp1.licdn.com/dms/image/C4E0BAQHqSo9BJmGhLQ/company-logo_200_200/0/1519904347696?e=2159024400&v=beta&t=7H4wePGWT3hBba9rfPhjK5LgKbJ3RInCghnmsyAEXqk"/></td>
-				</tr>
-				<tr>
-				    <td><a href="#headerPopup7" class="headerVideoLink portfolio-box"> 
+              </a>
+            </div>
+          <!-- NR -->
+            <div class="col-lg-4 col-sm-6">   
+                <a href="#headerPopup7" class="headerVideoLink portfolio-box"> 
                   <div id="headerPopup7" class="mfp-hide embed-responsive embed-responsive-21by9">
                     <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/89120411&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true">
                     </iframe>
@@ -273,21 +236,11 @@
                   <img class="img-fluid" src="img\nr.jpg" alt="">
                   <div class="portfolio-box-caption">
                   </div>
-                </a></td>
-				    <td>NEVILLE RUMBLE</td>
-            <td>Composer</td>
-				    <td>Feature film</td>
-				    <td><img class="company-logo" src="https://static.wixstatic.com/media/6296a5_5cdd8c74dd484c2ea6315beb27619451~mv2.png/v1/fill/w_145,h_80,al_c,q_85,usm_0.66_1.00_0.01/Body%20In%20The%20Box%20Productions.webp"/></td>
-			  	</tr>
-			  	<!-- <tr>
-				    <td>High Class Circus</td>
-				    <td>Producer</td>
-				    <td>Album</td>
-				    <td>Special Bruise</td>
-				</tr> -->
-	   			<tr>
-				    <td>
-              <a href="#headerPopup8" class="headerVideoLink portfolio-box"> 
+                </a>
+            </div>
+          <!-- SARNA -->
+            <div class="col-lg-4 col-sm-6">   
+                <a href="#headerPopup8" class="headerVideoLink portfolio-box"> 
                   <div id="headerPopup8" class="mfp-hide embed-responsive embed-responsive-21by9">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/j6rtq7evvBQ?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
                     </iframe>
@@ -295,77 +248,58 @@
                 <img class="img-fluid" src="img\sarna.jpg" alt="">
                 <div class="portfolio-box-caption">
                 </div>
-              </a></td>
-				    <td>SARNA RESIDENCE</td>
-            <td>Composer</td>
-				    <td>Promotional video</td>
-				    <td>Cricket Productions</td>
-		    	</tr>  
-		    	<!-- <tr>
-				    <td>Everybody Loves a Moose</td>
-				    <td>Sound Design Assistant</td>
-				    <td>Animation</td>
-				    <td>Trion Pictures</td>
-		    	</tr>  
-		    	<tr>
-				    <td>The Gathering of Giants</td>
-				    <td>Sound Design Assistant</td>
-				    <td>Documentary</td>
-				    <td>Myriad Global Media</td>
-		    	</tr>  
-		    	<tr>
-				    <td>Camera and Cello</td>
-				    <td>Composer</td>
-				    <td>Short film</td>
-				    <td>Team Hao Productions</td>
-		    	</tr> -->  
-				</table>
-              </div>
-     </div>
-    </section>
-<section class="bg-primary" id="testimonials">
+              </a>
+            </div>
+        </div>
+        <div class="container text-center">
+        <br><br><br><br>
+        <button type="button" class="btn btn-primary btn-xl" data-toggle="modal" data-target="#contactModalCenter">Get in Touch</button>
+        <hr><br><br>
+        </div>
+  </div>
+  </section>
+
+<section id="services">
+
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading">Which elements of your film can original music enrich?</h2>
+            <hr>
+          </div>
+
       <div class="container">
         <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <!-- <h2 class="section-heading text-white">Testimonials </h2> -->
-            <hr class="light my-4">
-            <p class="text-faded mb-4"><i>“Working with Stephen was a pleasure, his understanding of the brief and communication made the whole process streamline plus the high quality production really complemented our work.”</i><br><b>Oliver Cooper of Cricket Productions</b></p>
-            <br>
-            <p class="text-faded mb-4"><i>“We worked with Stephen on our feature film Neville Rumble putting full faith in his ability to produce a score that would help us tell the story we wanted. He more than repaid our faith and produced some fantastic music which really brought the film to life. A real professional approach and someone I would love to work with again.”</i><br><b>Richard Miller of Body In The Box Productions</b></p>
-            <br>
-            <p class="text-faded mb-4"><i>“'Stephen Theofanous’ original score sounds like compassion, providing sympathetic harmony without telling the audience what to feel.'</i><br><b>James Treakle of Indie Frontiers</b></p>
-            <br>
-            <a class="btn btn-light btn-xl js-scroll-trigger" href="#contact">contact</a>
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <h3 class="mb-3">Story</h3>
+              <p class="text-muted mb-0">Drive your story home with ... emotion ... drama</p>
+            </div>
           </div>
-        </div>
+
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <h3 class="mb-3">Flow</h3>
+              <p class="text-muted mb-0">Something about structure ... pacing ...</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 text-center">
+            <div class="service-box mt-5 mx-auto">
+              <h3 class="mb-3">Production Value</h3>
+              <p class="text-muted mb-0">Elevate the quality of your ...</p>
+            </div>
+      </div>
+    </div>
       </div>
     </section>
-<section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto text-center">
-            <h2 class="section-heading">Get in touch!</h2>
-            <hr class="my-4">
-            <p class="mb-5">I am always keen to collaborate and would love to hear about any project you're working on.</p>
-          </div>
-        </div>
-        <!-- <div class="row">
-          <div class="col-lg-4 ml-auto text-center">
-            <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
-            <p>077-8467-3442</p>
-          </div> -->
-          <div class="social d-flex justify-content-center">
-            <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
-            <p>
-              <a href="mailto:your-email@your-domain.com">stephen.theofanous@gmail.com</a>
-            </p>
-          </div>
-        </div>
+<section id="contact" class="bg-primary">
+      <div class="container text-center">
+        <button type="button" class="btn btn-light text-dark btn-xl" data-toggle="modal" data-target="#contactModalCenter">Get in Touch</button>
+        <hr class="light"><br><br><br>
         <div class="social d-flex justify-content-center">
-          <a href="https://www.instagram.com/st__composition/" target="_blank" class="mx-3">
+          <a href="https://www.instagram.com/st__composition/" target="_blank" class="mx-3 text-light">
             <i class="fab fa-instagram fa-lg"></i>
           </a>
-          <a href="https://www.facebook.com/theofanousmusic/" target="_blank" class="mx-3">
+          <a href="https://www.facebook.com/theofanousmusic/" target="_blank" class="mx-3 text-light">
             <i class="fab fa-facebook-f fa-lg"></i>
           </a>
           </div>
