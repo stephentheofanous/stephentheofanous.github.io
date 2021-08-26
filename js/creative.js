@@ -59,10 +59,8 @@
     scale: 0
   });
   sr.reveal('.sr-button', {
-    delay: 200,
-    distance: '15px',
-    origin: 'bottom',
-    scale: 0.8
+    duration: 1000,
+    delay: 200
   });
   sr.reveal('.sr-contact-1', {
     delay: 200,
