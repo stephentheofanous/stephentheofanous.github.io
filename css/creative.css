@@ -339,3 +339,65 @@ header.masthead p {
   background-color: #4CAF50;
   color: white;
 }
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical
+}
+
+/*CONTACTFORM*/
+
+:root{
+  --font-color: #555;
+  --font-hovercolor: #f05f40;
+}
+
+.form-body{
+ display: flex; 
+ justify-content: center;
+ align-items: center;
+}
+
+.form-container{
+  width: 600px;
+}
+
+.form-group{
+  margin-bottom: 1.5em;
+}
+
+.form-label{
+  font-size: .75em;
+  color: var(--font-color);
+  display: block;
+  opacity: 1;
+}
+
+.form-control{
+  box-shadow: none;
+  border-radius: 0;
+  border-color: #ccc;
+  border-style: none none solid none;
+  width:  100%;
+/*  font-size: 1.25em;*/
+}
+
+.form-control::placeholder{
+  color: #aaa;
+}
+
+.form-control:focus{
+  box-shadow: none;
+  border-color: var(--font-hovercolor);
+  outline: none;
+}
+
+textarea{
+  resize: none;
+}
