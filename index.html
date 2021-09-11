@@ -26,11 +26,11 @@
 <div class="modal fade" id="contactModalCenter" tabindex="-1" role="dialog" aria-labelledby="contactModalCenterTitle" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <!-- <div class="modal-content text-center"> -->
-    <div class="modal-content">
+    <div class="modal-content text-center">
       <div class="modal-body form-body">
           
         <!-- steph...@gmail.comModal -->
-            <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
             <br>
@@ -39,7 +39,7 @@
             <form action="mailto:stephen.theofanous@gmail.com">
            Send me a message at stephen.theofanous@gmail.com <br><hr>
               </form>
-              <br> -->
+              <br>
 
         <!-- googleFormModal -->
             <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfyI92Gz2NDv6gakErTM6kfKohQPPiqrWEr1m20Yf_2gOIF4A/viewform?embedded=true" width="640" height="674" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>    -->     
@@ -59,70 +59,11 @@
                 <button type="submit" class="btn btn-xl btn-primary">Send Message</button>
               </form>
             <br> -->
-<?php
-  if($message_sent): 
-?>
-
-  <h3>Thanks, I'll be in touch</h3>
-<?php
-  else:
-?>
-<div class="container form-container">
-  <form action="webform.php" method="POST" class="form">
-    <div class="form-group">
-      <label for="name" class="form-label">Your Name</label>
-      <input type="text" class="form-control" id="name" name="name" placeholder="Jane Doe" tabindex="1" required>
-    </div>
-    <div class="form-group">
-      <label for="email" class="form-label">Your email</label>
-      <input type="email" class="form-control" id="email" name="email" placeholder="jane@doe.com" tabindex="2" required>
-    </div>
-    <div class="form-group">
-      <label for="subject" class="form-label">Subject</label>
-      <input type="text" class="form-control" id="subject" name="subject" placeholder="Hello There!" tabindex="3" required>
-    </div>
-    <div class="form-group">
-      <label for="message" class="form-label">Message</label>
-      <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="Enter Message..." tabindex="4"></textarea>
-    </div>
-    <div>
-      <button type="submit" class="btn btn-xl btn-primary">Send Message!</button>
-    </div>
-  </form>
-  </div>
-  <?php
-    endif;
-  ?>
-
 
       </div>
     </div>
   </div>
 </div>
-
-  <!-- <div class="modal fade" id="contactModalCenter" tabindex="-1" role="dialog" aria-labelledby="contactModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content text-center">
-        <div class="modal-body">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-          <br>
-          <h5 class="section-heading">Let's discuss your project!</h5>
-          <br> 
-              <form action="" method="POST" class="form">
-                <input type="text" id="name" name="name" placeholder="Your name.." required>
-                <input type="email" id="email" name="email" placeholder="Your Email.." required>
-                <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject..." required>
-                <textarea id="message" name="message" placeholder="Message.." style="height:180px"></textarea>
-                <button type="submit" class="btn btn-xl btn-primary">Send Message</button>
-              </form>
-            <br>
-          </div>
-        </div>
-      </div>
-  </div> -->
-
 
 <!-- Body Tag -->
 <body id="page-top">
