@@ -23,6 +23,7 @@ $headers1 = 'From: '.$from1."\r\n" .
 
 if(mail($to1, $subject1, $message1, $headers1))
 {
+	echo'<script>$("#form").hide()</script>';
 	echo'<div class="alert alert-success"><strong>Thank you for your message, I will be in touch</strong></div>';
 	echo'<script>$("#reset")[0].reset()</script>';
 }
