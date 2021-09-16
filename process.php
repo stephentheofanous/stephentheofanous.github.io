@@ -1,6 +1,6 @@
 <?php
 $to      = 'stephen.theofanous@gmail.com';
-$from    = 'contact-us';
+$from    = $_POST['email'];
 $email   = $_POST['email'];
 $subject = 'Received New Email!';
 $message = "Name: ".$_POST['name']."\nEmail: ".$_POST['email']."\nMessage: ".$_POST["message"]."";
@@ -13,7 +13,7 @@ if(mail($to, $subject, $message, $headers))
 	// resend
 
 $to1      = $_POST['email'];
-$from1    = 'contact-us';
+$from1    = 'stephen.theofanous@gmail.com';
 $email1   = "stephen.theofanous@gmail.com";
 $subject1 = 'ST || Composition';
 $message1 = "Thank you for getting in touch! I will respond to your message shortly.\n\nName: ".$_POST['name']."\nEmail: ".$_POST['email']."\nMessage: ".$_POST["message"]."";
