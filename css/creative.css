@@ -43,9 +43,14 @@ h6 {
 
 .bg-primary2 {
   background-color: #F05F40 !important;
-  min-height: 28em;
+  position:  relative;
+  min-height: 34em;
 }
 
+.carousel-inner {
+  position: absolute;
+  padding-top: 2em;
+}
 
 .bg-dark {
   background-color: #212529 !important;
