@@ -2,7 +2,7 @@
 $to      = 'stephen.theofanous@gmail.com';
 $from    = $_POST['email'];
 $email   = $_POST['email'];
-$subject = 'Received New Email!';
+$subject = 'Received New Composition Enquiry';
 $message = "Name: ".$_POST['name']."\nEmail: ".$_POST['email']."\nMessage: ".$_POST["message"]."";
 $headers = 'From: '.$from."\r\n" .
         'Reply-To: '.$email."\r\n" .
